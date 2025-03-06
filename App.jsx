@@ -1,12 +1,13 @@
 import React from "react";
-import Laptops from "./Laptops";
-import "./Laptops.css";
+import Laptops from "./Mobiles";
+import "./Mobiles.css";
+import Mobiles from "./Mobiles";
 
 function App() {
     return (
         <div className="App">
-            <h1>Available Laptops</h1>
-            <Laptops/>
+            <h1>Available Mobiles</h1>
+            <Mobiles/>
         </div>
     );
 }
